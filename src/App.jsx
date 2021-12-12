@@ -1,6 +1,7 @@
 import "./App.css";
 import { InfinitePeople } from "./people/InfinitePeople";
 import { InfiniteSpecies } from "./species/InfiniteSpecies";
+import { ReactQueryDevtools } from "react-query/devtools";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <h1>Infinite SWAPI</h1>
       <InfinitePeople />
       {/* <InfiniteSpecies /> */}
+      <ReactQueryDevtools/>
     </div>
   );
 }
